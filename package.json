@@ -1,0 +1,19 @@
+{
+  "name": "oxford-date",
+  "main": "./lib/oxford-date",
+  "version": "0.1.0",
+  "description": "Atom package that displays the Oxford date in the status bar",
+  "keywords": "oxford",
+  "repository": "https://github.com/calintat/oxford-date",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}
